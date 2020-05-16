@@ -18,6 +18,7 @@
     "@babel/core": "^7.9.6",
     "@babel/runtime": "^7.9.6",
     "@react-native-community/eslint-config": "^1.1.0",
+    "@umijs/plugin-dva": "^0.6.5",
     "babel-jest": "^26.0.1",
     "eslint": "^7.0.0",
     "jest": "^26.0.1",
