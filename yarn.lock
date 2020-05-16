@@ -12481,17 +12481,17 @@ umi-preset-react-native@^0.2.0-alpha.0:
     babel-plugin-module-resolver "^4.0.0"
     react-router-native "5.1.2"
 
-umi-preset-react-navigation@^0.2.0-alpha.0:
-  version "0.2.0-alpha.0"
-  resolved "https://registry.npm.taobao.org/umi-preset-react-navigation/download/umi-preset-react-navigation-0.2.0-alpha.0.tgz#b493e4c60872d1d172ad1a7afecc75f217837b2c"
-  integrity sha1-tJPkxghy0dFyrRp6/sx18heDeyw=
+umi-preset-react-navigation@^0.2.0-alpha.1:
+  version "0.2.0-alpha.1"
+  resolved "https://registry.npm.taobao.org/umi-preset-react-navigation/download/umi-preset-react-navigation-0.2.0-alpha.1.tgz?cache=0&sync_timestamp=1589630760385&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fumi-preset-react-navigation%2Fdownload%2Fumi-preset-react-navigation-0.2.0-alpha.1.tgz#f9a20e2d544b7035594534567bfc8f9692927b75"
+  integrity sha1-+aIOLVRLcDVZRTRWe/yPlpKSe3U=
   dependencies:
-    umi-renderer-react-navigation "^0.2.0-alpha.0"
+    umi-renderer-react-navigation "^0.2.0-alpha.1"
 
-umi-renderer-react-navigation@^0.2.0-alpha.0:
-  version "0.2.0-alpha.0"
-  resolved "https://registry.npm.taobao.org/umi-renderer-react-navigation/download/umi-renderer-react-navigation-0.2.0-alpha.0.tgz#4b8701aa041039ca2b6bac5bd7b5edafe8784e1d"
-  integrity sha1-S4cBqgQQOcora6xb17Xtr+h4Th0=
+umi-renderer-react-navigation@^0.2.0-alpha.1:
+  version "0.2.0-alpha.1"
+  resolved "https://registry.npm.taobao.org/umi-renderer-react-navigation/download/umi-renderer-react-navigation-0.2.0-alpha.1.tgz?cache=0&sync_timestamp=1589630754500&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fumi-renderer-react-navigation%2Fdownload%2Fumi-renderer-react-navigation-0.2.0-alpha.1.tgz#03cda354f81133681823131c1549f862d6d5afce"
+  integrity sha1-A82jVPgRM2gYIxMcFUn4YtbVr84=
   dependencies:
     "@react-navigation/native" "5.3.0"
     "@react-navigation/stack" "5.3.3"
