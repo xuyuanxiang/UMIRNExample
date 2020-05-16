@@ -57,3 +57,9 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# umi-react-native
+.umi
+index.js
+metro.config.js
+babel.config.js
