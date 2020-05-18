@@ -40,7 +40,7 @@ yarn react-native link
 cd ios && pod install && cd -
 ```
 
-启动 watch 进程，监听远吗文件变动，重新生成中间代码：
+启动 watch 进程，监听文件变动，重新生成中间代码：
 
 ```npm
 yarn watch

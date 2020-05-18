@@ -6,19 +6,19 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "watch": "umi watch",
+    "watch": "umi g rn --dev",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
-    "@ant-design/react-native": "^3.3.0",
-    "@react-native-community/masked-view": "^0.1.10",
+    "@ant-design/react-native": "3.3.0",
+    "@react-native-community/masked-view": "0.1.10",
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "react-native-gesture-handler": "^1.6.1",
-    "react-native-reanimated": "^1.8.0",
-    "react-native-safe-area-context": "^1.0.0",
-    "react-native-screens": "^2.7.0"
+    "react-native-gesture-handler": "1.6.1",
+    "react-native-reanimated": "1.8.0",
+    "react-native-safe-area-context": "1.0.0",
+    "react-native-screens": "2.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -32,8 +32,8 @@
     "react-test-renderer": "16.11.0",
     "umi": "^3.1.4",
     "umi-plugin-antd-react-native": "^0.2.0-alpha.0",
-    "umi-preset-react-native": "^0.2.0-alpha.0",
-    "umi-preset-react-navigation": "^0.2.0-alpha.1"
+    "umi-preset-react-native": "^0.2.0-alpha.4",
+    "umi-preset-react-navigation": "^0.2.0-alpha.4"
   },
   "jest": {
     "preset": "react-native"

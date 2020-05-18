@@ -7,7 +7,7 @@
   resolved "https://registry.npm.taobao.org/@ant-design/icons-react-native/download/@ant-design/icons-react-native-2.2.1.tgz#0d21226fefa90471129dba864efb6c437627fb37"
   integrity sha1-DSEib++pBHESnbqGTvtsQ3Yn+zc=
 
-"@ant-design/react-native@^3.3.0":
+"@ant-design/react-native@3.3.0":
   version "3.3.0"
   resolved "https://registry.npm.taobao.org/@ant-design/react-native/download/@ant-design/react-native-3.3.0.tgz#ecd1ef6e34f09e21e5969bce60996c5d8eeb01c3"
   integrity sha1-7NHvbjTwniHllpvOYJlsXY7rAcM=
@@ -1638,7 +1638,7 @@
   resolved "https://registry.npm.taobao.org/@react-native-community/eslint-plugin/download/@react-native-community/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha1-5Csb7xLSQVQRUZ/VKOZLWTsTY9w=
 
-"@react-native-community/masked-view@^0.1.10":
+"@react-native-community/masked-view@0.1.10":
   version "0.1.10"
   resolved "https://registry.npm.taobao.org/@react-native-community/masked-view/download/@react-native-community/masked-view-0.1.10.tgz#5dda643e19e587793bc2034dd9bf7398ad43d401"
   integrity sha1-XdpkPhnlh3k7wgNN2b9zmK1D1AE=
@@ -1649,9 +1649,9 @@
   integrity sha1-fTsWMfHskRRduSqOJcgNUwJ+lro=
 
 "@react-navigation/core@^5.5.2":
-  version "5.6.1"
-  resolved "https://registry.npm.taobao.org/@react-navigation/core/download/@react-navigation/core-5.6.1.tgz#c2951e56ef195027bfb4127d049aea5bd381fab1"
-  integrity sha1-wpUeVu8ZUCe/tBJ9BJrqW9OB+rE=
+  version "5.7.0"
+  resolved "https://registry.npm.taobao.org/@react-navigation/core/download/@react-navigation/core-5.7.0.tgz#11cca7c663fc72708c37a09c8cede9861dae0d1f"
+  integrity sha1-EcynxmP8cnCMN6CcjO3phh2uDR8=
   dependencies:
     "@react-navigation/routers" "^5.4.4"
     escape-string-regexp "^4.0.0"
@@ -3381,7 +3381,7 @@ babel-plugin-jest-hoist@^26.0.0:
 
 babel-plugin-module-resolver@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.npm.taobao.org/babel-plugin-module-resolver/download/babel-plugin-module-resolver-4.0.0.tgz#8f3a3d9d48287dc1d3b0d5595113adabd36a847f"
+  resolved "https://registry.npm.taobao.org/babel-plugin-module-resolver/download/babel-plugin-module-resolver-4.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-plugin-module-resolver%2Fdownload%2Fbabel-plugin-module-resolver-4.0.0.tgz#8f3a3d9d48287dc1d3b0d5595113adabd36a847f"
   integrity sha1-jzo9nUgofcHTsNVZUROtq9NqhH8=
   dependencies:
     find-babel-config "^1.2.0"
@@ -3549,7 +3549,7 @@ bluebird@^3.5.5:
 
 blueimp-md5@2.15.0:
   version "2.15.0"
-  resolved "https://registry.npm.taobao.org/blueimp-md5/download/blueimp-md5-2.15.0.tgz?cache=0&sync_timestamp=1589418673514&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fblueimp-md5%2Fdownload%2Fblueimp-md5-2.15.0.tgz#ae945f87ca6c2c11e2562983e11450b0545f9bb3"
+  resolved "https://registry.npm.taobao.org/blueimp-md5/download/blueimp-md5-2.15.0.tgz?cache=0&sync_timestamp=1589419644333&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fblueimp-md5%2Fdownload%2Fblueimp-md5-2.15.0.tgz#ae945f87ca6c2c11e2562983e11450b0545f9bb3"
   integrity sha1-rpRfh8psLBHiVimD4RRQsFRfm7M=
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.4.0:
@@ -5321,7 +5321,7 @@ escape-string-regexp@^2.0.0:
 
 escape-string-regexp@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-4.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescape-string-regexp%2Fdownload%2Fescape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-4.0.0.tgz?cache=0&sync_timestamp=1587627212242&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescape-string-regexp%2Fdownload%2Fescape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha1-FLqDpdNz49MR5a/KKc9b+tllvzQ=
 
 escodegen@^1.14.1:
@@ -7790,7 +7790,7 @@ json3@^3.3.2:
 
 json5@^0.5.1:
   version "0.5.1"
-  resolved "https://registry.npm.taobao.org/json5/download/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
+  resolved "https://registry.npm.taobao.org/json5/download/json5-0.5.1.tgz?cache=0&sync_timestamp=1586045693798&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjson5%2Fdownload%2Fjson5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
   integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
 
 json5@^1.0.1:
@@ -8207,6 +8207,11 @@ map-cache@^0.2.2:
   resolved "https://registry.npm.taobao.org/map-cache/download/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
   integrity sha1-wyq9C9ZSXZsFFkW7TyasXcmKDb8=
 
+map-or-similar@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npm.taobao.org/map-or-similar/download/map-or-similar-1.5.0.tgz#6de2653174adfb5d9edc33c69d3e92a1b76faf08"
+  integrity sha1-beJlMXSt+12e3DPGnT6Sobdvrwg=
+
 map-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/map-visit/download/map-visit-1.0.0.tgz#ecdca8f13144e660f1b5bd41f12f3479d98dfb8f"
@@ -8286,6 +8291,13 @@ memoizee@^0.4.14:
     lru-queue "0.1"
     next-tick "1"
     timers-ext "^0.1.5"
+
+memoizerific@^1.11.3:
+  version "1.11.3"
+  resolved "https://registry.npm.taobao.org/memoizerific/download/memoizerific-1.11.3.tgz#7c87a4646444c32d75438570905f2dbd1b1a805a"
+  integrity sha1-fIekZGREwy11Q4VwkF8tvRsagFo=
+  dependencies:
+    map-or-similar "^1.5.0"
 
 memory-fs@^0.4.1:
   version "0.4.1"
@@ -8859,9 +8871,9 @@ nan@^2.12.1:
   integrity sha1-174036MQW5FJTDFHCJMV7/iHSwE=
 
 nanoid@^3.1.5:
-  version "3.1.7"
-  resolved "https://registry.npm.taobao.org/nanoid/download/nanoid-3.1.7.tgz?cache=0&sync_timestamp=1589223557393&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnanoid%2Fdownload%2Fnanoid-3.1.7.tgz#3705ccf590b6a51fbd1794fcf204ce7b5dc46c01"
-  integrity sha1-NwXM9ZC2pR+9F5T88gTOe13EbAE=
+  version "3.1.9"
+  resolved "https://registry.npm.taobao.org/nanoid/download/nanoid-3.1.9.tgz#1f148669c70bb2072dc5af0666e46edb6cd31fb2"
+  integrity sha1-HxSGaccLsgctxa8GZuRu22zTH7I=
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -10607,7 +10619,7 @@ react-native-collapsible@^1.4.0:
   dependencies:
     prop-types "^15.6.2"
 
-react-native-gesture-handler@^1.6.1:
+react-native-gesture-handler@1.6.1:
   version "1.6.1"
   resolved "https://registry.npm.taobao.org/react-native-gesture-handler/download/react-native-gesture-handler-1.6.1.tgz#678e2dce250ed66e93af409759be22cd6375dd17"
   integrity sha1-Z44tziUO1m6Tr0CXWb4izWN13Rc=
@@ -10631,14 +10643,14 @@ react-native-modal-popover@^0.0.12:
     lodash.debounce "^4.0.8"
     prop-types "^15.6.2"
 
-react-native-reanimated@^1.8.0:
+react-native-reanimated@1.8.0:
   version "1.8.0"
   resolved "https://registry.npm.taobao.org/react-native-reanimated/download/react-native-reanimated-1.8.0.tgz#0b5719b20c1fed9aaf8afd9a12e21c9bd46ee428"
   integrity sha1-C1cZsgwf7Zqviv2aEuIcm9Ru5Cg=
   dependencies:
     fbjs "^1.0.0"
 
-react-native-safe-area-context@^1.0.0:
+react-native-safe-area-context@1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/react-native-safe-area-context/download/react-native-safe-area-context-1.0.0.tgz#8b4d79b06d6a9ed5ff3b2c3f0ba25d85538a3149"
   integrity sha1-i015sG1qntX/Oyw/C6JdhVOKMUk=
@@ -10650,7 +10662,7 @@ react-native-safe-area-view@^0.11.0:
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
-react-native-screens@^2.7.0:
+react-native-screens@2.7.0:
   version "2.7.0"
   resolved "https://registry.npm.taobao.org/react-native-screens/download/react-native-screens-2.7.0.tgz#2d3cf3c39a665e9ca1c774264fccdb90e7944047"
   integrity sha1-LTzzw5pmXpyhx3QmT8zbkOeUQEc=
@@ -12472,26 +12484,27 @@ umi-plugin-antd-react-native@^0.2.0-alpha.0:
   resolved "https://registry.npm.taobao.org/umi-plugin-antd-react-native/download/umi-plugin-antd-react-native-0.2.0-alpha.0.tgz#3e6c80c7de0759775df15db128e61689a411b5c1"
   integrity sha1-PmyAx94HWXdd8V2xKOYWiaQRtcE=
 
-umi-preset-react-native@^0.2.0-alpha.0:
-  version "0.2.0-alpha.0"
-  resolved "https://registry.npm.taobao.org/umi-preset-react-native/download/umi-preset-react-native-0.2.0-alpha.0.tgz#d26936c0a240453d53e146983510d8e64bc306b6"
-  integrity sha1-0mk2wKJART1T4UaYNRDY5kvDBrY=
+umi-preset-react-native@^0.2.0-alpha.4:
+  version "0.2.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/umi-preset-react-native/download/umi-preset-react-native-0.2.0-alpha.4.tgz#ac4dfd0359f681963018b255da4b3e5d044564c2"
+  integrity sha1-rE39A1n2gZYwGLJV2ks+XQRFZMI=
   dependencies:
     "@types/react-router-native" "5.1.0"
     babel-plugin-module-resolver "^4.0.0"
+    memoizerific "^1.11.3"
     react-router-native "5.1.2"
 
-umi-preset-react-navigation@^0.2.0-alpha.1:
-  version "0.2.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/umi-preset-react-navigation/download/umi-preset-react-navigation-0.2.0-alpha.1.tgz?cache=0&sync_timestamp=1589630760385&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fumi-preset-react-navigation%2Fdownload%2Fumi-preset-react-navigation-0.2.0-alpha.1.tgz#f9a20e2d544b7035594534567bfc8f9692927b75"
-  integrity sha1-+aIOLVRLcDVZRTRWe/yPlpKSe3U=
+umi-preset-react-navigation@^0.2.0-alpha.4:
+  version "0.2.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/umi-preset-react-navigation/download/umi-preset-react-navigation-0.2.0-alpha.4.tgz#82ef6bc76fcfebf019463d0c5f83e9a2c1b1ce47"
+  integrity sha1-gu9rx2/P6/AZRj0MX4PposGxzkc=
   dependencies:
-    umi-renderer-react-navigation "^0.2.0-alpha.1"
+    umi-renderer-react-navigation "^0.2.0-alpha.4"
 
-umi-renderer-react-navigation@^0.2.0-alpha.1:
-  version "0.2.0-alpha.1"
-  resolved "https://registry.npm.taobao.org/umi-renderer-react-navigation/download/umi-renderer-react-navigation-0.2.0-alpha.1.tgz?cache=0&sync_timestamp=1589630754500&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fumi-renderer-react-navigation%2Fdownload%2Fumi-renderer-react-navigation-0.2.0-alpha.1.tgz#03cda354f81133681823131c1549f862d6d5afce"
-  integrity sha1-A82jVPgRM2gYIxMcFUn4YtbVr84=
+umi-renderer-react-navigation@^0.2.0-alpha.4:
+  version "0.2.0-alpha.4"
+  resolved "https://registry.npm.taobao.org/umi-renderer-react-navigation/download/umi-renderer-react-navigation-0.2.0-alpha.4.tgz#018bf8f1756caecf113bde0b200f6c9fcfbb0c99"
+  integrity sha1-AYv48XVsrs8RO94LIA9sn8+7DJk=
   dependencies:
     "@react-navigation/native" "5.3.0"
     "@react-navigation/stack" "5.3.3"

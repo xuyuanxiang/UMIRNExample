@@ -16,7 +16,7 @@ function HomePage() {
   );
 }
 
-HomePage.title = '主页';
+HomePage.title = '主页ddd';
 HomePage.headerTintColor = '#000000';
 HomePage.headerTitleStyle = {
   fontWeight: 'bold',
