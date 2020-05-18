@@ -32,7 +32,6 @@ yarn
 
 ```npm
 yarn react-native link
-# ./node_modules/.bin/react-native link
 ```
 
 对于**iOS**还需要进到 ios 工程目录使用 pod 安装原生依赖（Android 跳过这一步）：
@@ -41,17 +40,11 @@ yarn react-native link
 cd ios && pod install && cd -
 ```
 
-启动 dev web server：
+启动 watch 进程，监听远吗文件变动，重新生成中间代码：
 
 ```npm
-yarn start
+yarn watch
 ```
-
-执行上面命令后，会看到：
-
-![](https://cdn.xuyuanxiang.me/start_snapshot_332028d2.png)
-
-**在原生 Android、iOS 应用启动后，请求 bundle URL 时，进度条才会更新。**
 
 另启一个终端，启动 Android 应用：
 
