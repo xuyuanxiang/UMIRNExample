@@ -32,8 +32,8 @@
     "react-test-renderer": "16.11.0",
     "umi": "^3.1.4",
     "umi-plugin-antd-react-native": "^0.2.0-alpha.5",
-    "umi-preset-react-native": "^0.2.0-alpha.5",
-    "umi-preset-react-navigation": "^0.2.0-alpha.5"
+    "umi-preset-react-native": "^0.2.0-alpha.6",
+    "umi-preset-react-navigation": "^0.2.0-alpha.6"
   },
   "jest": {
     "preset": "react-native"
