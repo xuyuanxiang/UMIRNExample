@@ -12518,10 +12518,10 @@ umi-plugin-antd-react-native@^0.3.0-alpha.5:
   resolved "https://registry.npmjs.org/umi-plugin-antd-react-native/-/umi-plugin-antd-react-native-0.3.0-alpha.5.tgz#86260986865dbbed539c3f30f448aedc052e0f2b"
   integrity sha512-qMCKbV4eiyIU6y+QQMhnxDtH+QLu2fqSFc4sEPy0kAqf34nyE17GBX7z51a83EA5ymANMMqPJjOCRQFrKu/Hpw==
 
-umi-preset-react-native@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/umi-preset-react-native/-/umi-preset-react-native-0.3.0.tgz#d2ae8ca4d7c4b49d754238c3a264dad116179bf1"
-  integrity sha512-gUgd6gbVVO8Lygp+y0fHqBrHLq0zujxHN51cq2TIyR3wCf/iAPBP/6IOGBufbyEyjVSNpqChtYMlfVcfBza2Rw==
+umi-preset-react-native@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/umi-preset-react-native/-/umi-preset-react-native-0.3.1.tgz#a89a45f6f484977fc1c8d1ef79903fcebe4f41e0"
+  integrity sha512-SxIjIErssLhyMz5yrnxXizIYwuQITcrZbQR41hTvcD9cT/O2XJc1603wsREMKH6euo8tLUfyQQ4DWAL4yTYY6g==
   dependencies:
     "@types/react-router-native" "5.1.0"
     "@umijs/runtime" "^3.0.0"
