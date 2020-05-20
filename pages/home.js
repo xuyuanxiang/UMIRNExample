@@ -7,7 +7,10 @@ const data = Array.from(new Array(9)).map((_val, i) => ({
   text: `Name${i}`,
 }));
 
-function HomePage() {
+function HomePage({route}) {
+  if (__DEV__) {
+    console.info('HomePage: route=', route);
+  }
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -16,7 +19,7 @@ function HomePage() {
   );
 }
 
-HomePage.title = '主页ddd';
+HomePage.title = '主页';
 HomePage.headerTintColor = '#000000';
 HomePage.headerTitleStyle = {
   fontWeight: 'bold',

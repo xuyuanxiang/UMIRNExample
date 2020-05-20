@@ -43,7 +43,7 @@ const ConnectedIndexPage = connect(({foo, loading: {effects}}) => ({
       <StatusBar barStyle="light-content" />
       <List
         renderHeader={() => <Text>{loading ? 'Loading...' : greeting}</Text>}>
-        <Link to="/home" component={Item} arrow="horizontal">
+        <Link to="/home?foo=bar" component={Item} arrow="horizontal">
           主页
         </Link>
         <Link to="/login" component={Item} arrow="horizontal">
