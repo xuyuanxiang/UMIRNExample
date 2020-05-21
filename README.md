@@ -10,6 +10,10 @@
 
 **需要配置好 RN 开发环境：[Setting up the development environment](https://reactnative.dev/docs/environment-setup)，才能查看应用运行效果。**
 
+你可以使用**UMIRNExample**作为模板，[快速开始](#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)业务开发；
+
+也可以从零开始徒手搭建，在[变更记录](#%E5%8F%98%E6%9B%B4%E8%AE%B0%E5%BD%95)中追溯每一步代码变动的内容。
+
 ## 目录
 
 - [目录](#%E7%9B%AE%E5%BD%95)
