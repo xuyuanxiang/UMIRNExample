@@ -75,7 +75,7 @@ npx react-native init UMIRNExample
 
 ### 0.1.0-安装 umi 和 umi-preset-react-native
 
-添加`umi`和`umi-preset-react-native`依赖后的代码：[0.1.0](https://github.com/xuyuanxiang/UMIRNExample/tree/0.1.0) 。
+代码：[0.1.0](https://github.com/xuyuanxiang/UMIRNExample/tree/0.1.0) 。
 
 ```npm
 yarn add umi umi-preset-react-native --dev
@@ -102,7 +102,7 @@ package.json:
 
 ### 1.0.0-集成 DvaJS
 
-添加`@umijs/plugin-dva`依赖后的代码：[1.0.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.0.0)。
+代码：[1.0.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.0.0)。
 
 ```npm
 yarn add @umijs/plugin-dva --dev
@@ -114,7 +114,7 @@ yarn add @umijs/plugin-dva --dev
 
 ### 1.1.0-集成 @ant-design/react-native
 
-添加`@ant-design/react-native`依赖后的代码：[1.1.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.1.0)。
+代码：[1.1.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.1.0)。
 
 ```npm
 yarn add @ant-design/react-native && yarn add umi-plugin-antd-react-native --dev && yarn react-native link
@@ -126,7 +126,7 @@ yarn add @ant-design/react-native && yarn add umi-plugin-antd-react-native --dev
 
 ### 1.2.0-集成 react-navigation
 
-添加`umi-preset-react-navigation`依赖后的代码：[1.2.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.2.0)。
+代码：[1.2.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.2.0)。
 
 ```npm
 yarn add umi-preset-react-navigation --dev && yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view && cd ios && pod install && cd -
