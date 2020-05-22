@@ -71,7 +71,7 @@ yarn ios
 使用`react-native init`得到初始代码：[0.0.1](https://github.com/xuyuanxiang/UMIRNExample/tree/0.0.1)
 
 ```npm
-npx react-native init UMIHaulExample
+npx react-native init UMIRNExample
 ```
 
 ### 0.1.0-安装 umi 和 umi-preset-react-native
