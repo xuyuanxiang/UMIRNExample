@@ -82,6 +82,21 @@ npx react-native init UMIRNExample
 yarn add umi umi-preset-react-native --dev
 ```
 
+package.json:
+
+```diff
+{
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
++   "watch": "umi g rn --dev",
+    "test": "jest",
+    "lint": "eslint ."
+  }
+}
+```
+
 查看变更内容：
 
 - [compare/0.0.1...0.1.0](https://github.com/xuyuanxiang/UMIRNExample/compare/0.0.1...0.1.0)
