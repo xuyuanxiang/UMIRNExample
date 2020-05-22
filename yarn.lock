@@ -12513,15 +12513,15 @@ ultron@1.0.x:
   resolved "https://registry.npmjs.org/ultron/-/ultron-1.0.2.tgz#ace116ab557cd197386a4e88f4685378c8b2e4fa"
   integrity sha1-rOEWq1V80Zc4ak6I9GhTeMiy5Po=
 
-umi-plugin-antd-react-native@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.npmjs.org/umi-plugin-antd-react-native/-/umi-plugin-antd-react-native-0.3.2.tgz#6d0632e3cb50d3ddf4f14977fff1b808829ae932"
-  integrity sha512-WKzuYCorwwCA1qxJbpRnj/NgR0wZW9K/8UHn4D3qbJ51ngKi+HMjV+NuNQsrcte1/aKGTRaJXyXSKb6bTua3Lw==
+umi-plugin-antd-react-native@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.npmjs.org/umi-plugin-antd-react-native/-/umi-plugin-antd-react-native-0.3.4.tgz#9cdc41cd51a03e678dd709aef8d65931a9ff0564"
+  integrity sha512-k+xdN6ZZ44YOccrjxTkjqkLYKn0wXZCAABYji7OX8tHVZr5hb0XVeyue7SS1HBTnHx72aTxh+5aPdJQIg08tAw==
 
-umi-preset-react-native@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.npmjs.org/umi-preset-react-native/-/umi-preset-react-native-0.3.3.tgz#c193d1ad69389b3e0e33891dcebb4aae19a00637"
-  integrity sha512-bNZrmRhLnxXbgD7sEFbd8qMY/8Vk6Gsfjzy6hfyyDV96/eJ8z4Vkx5fKTcBmAOS3IrHE8NcNcKs0lEbIrFkMsA==
+umi-preset-react-native@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.npmjs.org/umi-preset-react-native/-/umi-preset-react-native-0.3.4.tgz#fdcfa45b1d3386f41348f180fa48ee74c0733d6a"
+  integrity sha512-A4kQBj8GjiSIqaJgP1BrdHeXfUf8/xO3uKYnz1yLygK/TtPfvuRNhNwRgxzlfyZW9gQMLzks5j6E/Vc5VkQ0iw==
   dependencies:
     "@types/react-router-native" "5.1.0"
     "@umijs/runtime" "^3.0.0"
@@ -12529,10 +12529,10 @@ umi-preset-react-native@^0.3.3:
     memoizerific "1.11.3"
     react-router-native "5.1.2"
 
-umi-preset-react-navigation@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.npmjs.org/umi-preset-react-navigation/-/umi-preset-react-navigation-0.3.2.tgz#10ea12a995c1c22743be5afcfe03b54408eeb0ec"
-  integrity sha512-n2kBQRoNcA2vCFXqMKXdpfwIaEhFLq7RxrFiRUoK6dUbYyFZ69bul7JUjF3c/eeIa5JRQ6UF02imFQpMzvoWJg==
+umi-preset-react-navigation@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.npmjs.org/umi-preset-react-navigation/-/umi-preset-react-navigation-0.3.4.tgz#e914fe5535f98e9803291d46c7d85a84b0b8bffc"
+  integrity sha512-OZe3eb0U7OVhBJ8rVpaClLiPTkDKgH1py9JrXWN0ubhC7rWJq9IT1hS2mYklRPi08i93mbWPzM3OyCLyX4LFag==
   dependencies:
     umi-renderer-react-navigation "^0.3.2"
 
