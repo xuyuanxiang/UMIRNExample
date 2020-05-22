@@ -126,7 +126,7 @@ yarn add @ant-design/react-native && yarn add umi-plugin-antd-react-native --dev
 
 ### 1.2.0-集成 react-navigation
 
-添加`umi-plugin-react-navigation`依赖后的代码：[1.2.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.2.0)。
+添加`umi-preset-react-navigation`依赖后的代码：[1.2.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.2.0)。
 
 ```npm
 yarn add umi-preset-react-navigation --dev && yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view && cd ios && pod install && cd -
