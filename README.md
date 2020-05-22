@@ -58,7 +58,7 @@ yarn watch
 yarn android
 ```
 
-启动 iOS 应用：
+或者，启动 iOS 应用：
 
 ```npm
 yarn ios
@@ -70,9 +70,17 @@ yarn ios
 
 使用`react-native init`得到初始代码：[0.0.1](https://github.com/xuyuanxiang/UMIRNExample/tree/0.0.1)
 
+```npm
+npx react-native init UMIHaulExample
+```
+
 ### 0.1.0-安装 umi 和 umi-preset-react-native
 
 添加`umi`和`umi-preset-react-native`依赖后的代码：[0.1.0](https://github.com/xuyuanxiang/UMIRNExample/tree/0.1.0) 。
+
+```npm
+yarn add umi umi-preset-react-native --dev
+```
 
 查看变更内容：
 
@@ -82,27 +90,36 @@ yarn ios
 
 添加`@umijs/plugin-dva`依赖后的代码：[1.0.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.0.0)。
 
+```npm
+yarn add @umijs/plugin-dva --dev
+```
+
 查看变动内容：
 
-- [compare/0.0.1...1.0.0](https://github.com/xuyuanxiang/UMIRNExample/compare/0.0.1...1.0.0)
 - [compare/0.1.0...1.0.0](https://github.com/xuyuanxiang/UMIRNExample/compare/0.1.0...1.0.0)
 
 ### 1.1.0-集成 @ant-design/react-native
 
 添加`@ant-design/react-native`依赖后的代码：[1.1.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.1.0)。
 
+```npm
+yarn add @ant-design/react-native && yarn add umi-plugin-antd-react-native --dev && yarn react-native link
+```
+
 查看变动内容：
 
-- [compare/0.0.1...1.1.0](https://github.com/xuyuanxiang/UMIRNExample/compare/0.0.1...1.1.0)
 - [compare/1.0.0...1.1.0](https://github.com/xuyuanxiang/UMIRNExample/compare/1.0.0...1.1.0)
 
 ### 1.2.0-集成 react-navigation
 
 添加`umi-plugin-react-navigation`依赖后的代码：[1.2.0](https://github.com/xuyuanxiang/UMIRNExample/tree/1.2.0)。
 
+```npm
+yarn add umi-preset-react-navigation --dev && yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view && cd ios && pod install && cd -
+```
+
 查看变动内容：
 
-- [compare/0.0.1...1.2.0](https://github.com/xuyuanxiang/UMIRNExample/compare/0.0.1...1.2.0)
 - [compare/1.1.0...1.2.0](https://github.com/xuyuanxiang/UMIRNExample/compare/1.0.0...1.2.0)
 
 ## 构建离线包
