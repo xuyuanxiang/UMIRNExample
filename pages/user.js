@@ -6,7 +6,7 @@ import UserListScreen from '../tabs/UserListScreen';
 
 const {Navigator, Screen} = createBottomTabNavigator();
 
-function IndexPage() {
+function UserPage() {
   return (
     <Navigator
       screenOptions={({route}) => ({
@@ -23,13 +23,4 @@ function IndexPage() {
   );
 }
 
-IndexPage.title = '菜单';
-IndexPage.headerTintColor = '#ffffff';
-IndexPage.headerTitleStyle = {
-  fontWeight: 'bold',
-};
-IndexPage.headerStyle = {
-  backgroundColor: '#000000',
-};
-
-export default IndexPage;
+export default UserPage;
