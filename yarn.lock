@@ -1648,36 +1648,44 @@
   resolved "https://registry.npmjs.org/@react-native-community/viewpager/-/viewpager-1.1.7.tgz#7d3b1631f1ec91145db92a8e25c80d53027e96ba"
   integrity sha512-k9v2KJtAprNPq7IZmedD2VLMePvPW+ohX3uDnkpoKritBji+/RtRmTKrdtPi3Uvp0toq/KtPttAds1dr7AZNpw==
 
-"@react-navigation/core@^5.7.0":
-  version "5.7.0"
-  resolved "https://registry.npmjs.org/@react-navigation/core/-/core-5.7.0.tgz#11cca7c663fc72708c37a09c8cede9861dae0d1f"
-  integrity sha512-dVnfmTiOWV9YwaTq2BSDUgwUK1G1WkpD+w4oXqKCcy1LtJb+HWWUz5xiCdR1TtxvgaQn+RISxKm8yZAXVWPbXQ==
+"@react-navigation/bottom-tabs@5.5.1":
+  version "5.5.1"
+  resolved "https://registry.npmjs.org/@react-navigation/bottom-tabs/-/bottom-tabs-5.5.1.tgz#f1f15ea70e4b397de6f8acafe70a694de08c87b6"
+  integrity sha512-zSv0YD46tEH8RM4sgzpQ/bnV5dAr4bSul52PVY9e2Rc9f3lg5D2tmmPFsN0txWbpImHJcRKZdpAhcc61C+lBVA==
   dependencies:
-    "@react-navigation/routers" "^5.4.4"
+    color "^3.1.2"
+    react-native-iphone-x-helper "^1.2.1"
+
+"@react-navigation/core@^5.9.0":
+  version "5.9.0"
+  resolved "https://registry.npmjs.org/@react-navigation/core/-/core-5.9.0.tgz#013bcfad898d8cf3bfb7cab3bf796afb660285a9"
+  integrity sha512-1e0vlM0yAAYyy+AKC9oVtwqKfTHl+1ZXJRz16toP07Y6N5cWB6ZsTJIhiL3CHC6d2vBLYSkJca9ID+GB2VGi8Q==
+  dependencies:
+    "@react-navigation/routers" "^5.4.7"
     escape-string-regexp "^4.0.0"
     nanoid "^3.1.5"
     query-string "^6.12.1"
     react-is "^16.13.0"
     use-subscription "^1.4.0"
 
-"@react-navigation/native@5.4.0":
-  version "5.4.0"
-  resolved "https://registry.npmjs.org/@react-navigation/native/-/native-5.4.0.tgz#59165d033b2c5c24b5413fe0e64a02a9882734a3"
-  integrity sha512-Le2892zPQnSg1xNAoPWKsb8A60h0gp1xpwbbA/LHL4g2gRhTxa/SudmVATdF26I8ZVJRF5ZH9qXa2V3qu9+BtQ==
+"@react-navigation/native@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.npmjs.org/@react-navigation/native/-/native-5.5.0.tgz#04bc9a09f9c3fd6c704f56d979772a80327f5c12"
+  integrity sha512-pRNUg/TzTH+Me/lAguMhRQc3EbyJlTvmUFChAM+s5sOFMtEin+t9jcOEJhEdRtepc6xXQGKipuNA9GFDj2ezzA==
   dependencies:
-    "@react-navigation/core" "^5.7.0"
+    "@react-navigation/core" "^5.9.0"
 
-"@react-navigation/routers@5.4.4", "@react-navigation/routers@^5.4.4":
-  version "5.4.4"
-  resolved "https://registry.npmjs.org/@react-navigation/routers/-/routers-5.4.4.tgz#3b5e1a55edb73a506a82db59081ad434c0ce1aab"
-  integrity sha512-Q8ZIubVYc1569JOs2oMWbhNXBNzZHvRfP5cEZ6/ksj9cPF7DkwOXsAdF0b+Oe0ei0f7OaK9LTRmfiNdtAPWVzw==
+"@react-navigation/routers@5.4.7", "@react-navigation/routers@^5.4.7":
+  version "5.4.7"
+  resolved "https://registry.npmjs.org/@react-navigation/routers/-/routers-5.4.7.tgz#05f85a099d7ee5677edeced98959e4b87562e3b5"
+  integrity sha512-J+lQYDbEsyhAjcPpWY6ZJYEkGiZcPX62hNtySruShjbIEnI9gm3rC+BHdcrP/lufeWxWGFhI8CN7NSJGgP/Nmg==
   dependencies:
     nanoid "^3.1.5"
 
-"@react-navigation/stack@5.3.6":
-  version "5.3.6"
-  resolved "https://registry.npmjs.org/@react-navigation/stack/-/stack-5.3.6.tgz#7a1bf2f6b77dd92a0aa7befb4f3263215bed58f5"
-  integrity sha512-6uE9pWMa9tdvDSbMV9o6/1cFrT60c2S3CTKIR5mZWJbyanIGFdu/ScbjIvplnG5kLG24rIpc3rtC0FgqTsBVXQ==
+"@react-navigation/stack@5.4.1":
+  version "5.4.1"
+  resolved "https://registry.npmjs.org/@react-navigation/stack/-/stack-5.4.1.tgz#3b4ebec52649dca77571050bb00db9ea02df61a8"
+  integrity sha512-Pi1OH1kofbYIpUJ6q+8NZ+wprrGcBmTLAE/DfgmzrC+6I+EObYq55N2ByikqVSgKaRS+TsDrQe/RNkumsOjqVA==
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
@@ -3558,11 +3566,6 @@ bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
-
-blueimp-md5@2.16.0:
-  version "2.16.0"
-  resolved "https://registry.npmjs.org/blueimp-md5/-/blueimp-md5-2.16.0.tgz#9018bb805e4ee05512e0e8cbdb9305eeecbdc87c"
-  integrity sha512-j4nzWIqEFpLSbdhUApHRGDwfXbV8ALhqOn+FY5L6XBdKPAXU9BpGgFSbDsgqogfqPPR9R2WooseWCsfhfEC6uQ==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.4.0:
   version "4.11.8"
@@ -8897,7 +8900,7 @@ nan@^2.12.1:
   resolved "https://registry.npmjs.org/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
   integrity sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
 
-nanoid@^3.1.5:
+nanoid@3.1.9, nanoid@^3.1.5:
   version "3.1.9"
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.9.tgz#1f148669c70bb2072dc5af0666e46edb6cd31fb2"
   integrity sha512-fFiXlFo4Wkuei3i6w9SQI6yuzGRTGi8Z2zZKZpUxv/bQlBi4jtbVPBSNFZHQA9PNjofWqtIa8p+pnsc0kgZrhQ==
@@ -12513,15 +12516,15 @@ ultron@1.0.x:
   resolved "https://registry.npmjs.org/ultron/-/ultron-1.0.2.tgz#ace116ab557cd197386a4e88f4685378c8b2e4fa"
   integrity sha1-rOEWq1V80Zc4ak6I9GhTeMiy5Po=
 
-umi-plugin-antd-react-native@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/umi-plugin-antd-react-native/-/umi-plugin-antd-react-native-0.4.0.tgz#ff4bcb77ee8e75635578314a5fc74e2635974b54"
-  integrity sha512-KldX41pztf9QJYXzj3oKRgbdQp8LSyO09U/7/Bps+aHP/SN7AnqR36WFrel9kldL/9G6NxeD29cqvSShv2lcaA==
+umi-plugin-antd-react-native@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/umi-plugin-antd-react-native/-/umi-plugin-antd-react-native-0.5.0.tgz#c9b19b21092710fe8311617459d2131bd4d0780e"
+  integrity sha512-VtZpdqzWhjC/hOur9nVznF8V9imdYmSBNwM+EWQfpUuk1HNdkPugbn2/LUpzoCE+6EmRibXgwpWxZgbauxGN1g==
 
-umi-preset-react-native@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.npmjs.org/umi-preset-react-native/-/umi-preset-react-native-0.4.2.tgz#a3fb1290f1f1c65ccfa258fd7925918933acecaa"
-  integrity sha512-PDJo88UM29yiMwU67sIZBodKx4EP1vjalv9+0/3oFKpMiwYiVgzp2d0O9+867gScXEzpTpY9vB4L6vGGKt6n7w==
+umi-preset-react-native@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/umi-preset-react-native/-/umi-preset-react-native-0.5.0.tgz#c9dffe1b44a6ecd80a1cef85594d569cf3493bed"
+  integrity sha512-fe6VKc4kXD/5/F/v5CIDognCMIX5I00mo24IdkR/+MW5Iv8+90azO7xA2Boris3yikyDo01Tp468cYYb+YwMFw==
   dependencies:
     "@types/react-router-native" "5.1.0"
     "@umijs/runtime" "^3.0.0"
@@ -12529,23 +12532,24 @@ umi-preset-react-native@^0.4.2:
     memoizerific "1.11.3"
     react-router-native "5.1.2"
 
-umi-preset-react-navigation@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/umi-preset-react-navigation/-/umi-preset-react-navigation-0.4.0.tgz#4bd2ba8ac33f0e65eabde1e6db9f6f18e584c0e1"
-  integrity sha512-fl6USHmjyOZdpA+pIJ/tUDMnnSDaxZMhBJnxXlsRtqzx0zK8SqO+MoFPcH6wJPhDEKfIunOgWAShMSc5YdI6eQ==
+umi-preset-react-navigation@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/umi-preset-react-navigation/-/umi-preset-react-navigation-0.5.0.tgz#b040bf05fec0d7871eae493324f8c16c59b99836"
+  integrity sha512-ZSkoD3KYiCEoOEXDphrLVc2nlB3gXs4k2SVzSfiqrY0w7dBW8e9hJZU4o2R4U7i1KPMEjhRhEPksB1hVVR7GiQ==
   dependencies:
-    umi-renderer-react-navigation "^0.4.0"
+    umi-renderer-react-navigation "^0.5.0"
 
-umi-renderer-react-navigation@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/umi-renderer-react-navigation/-/umi-renderer-react-navigation-0.4.0.tgz#0804d4c2e6bd4162b983e050578e1ae32d1192d5"
-  integrity sha512-ii+2XTeFFKvXMzb4IRG91LX0VJFyGt/bE+XquxiUCcU+wsVy/MnFRM1QCjmpo+IxI+xXwq7cLYS/IikQtSil2Q==
+umi-renderer-react-navigation@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/umi-renderer-react-navigation/-/umi-renderer-react-navigation-0.5.0.tgz#e12d230d8ad9cb7d558e45aa3ffefd49494690ad"
+  integrity sha512-Ux5elFfNnb9d0BLiVOytps7ZjmTE4urPCam2LmITLC4sdKKoMnKdM4Qs/IR0/hLIN1Agwhm0GosEzE2Y8z0wEA==
   dependencies:
-    "@react-navigation/native" "5.4.0"
-    "@react-navigation/routers" "5.4.4"
-    "@react-navigation/stack" "5.3.6"
+    "@react-navigation/bottom-tabs" "5.5.1"
+    "@react-navigation/native" "5.5.0"
+    "@react-navigation/routers" "5.4.7"
+    "@react-navigation/stack" "5.4.1"
     "@types/react-router-config" "5.0.1"
-    blueimp-md5 "2.16.0"
+    nanoid "3.1.9"
     react-router-config "5.1.1"
     url-join "4.0.1"
 
