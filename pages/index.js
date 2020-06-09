@@ -1,66 +1,48 @@
-import React, {useLayoutEffect} from 'react';
-import {StatusBar, Text} from 'react-native';
-import {List, Modal, Button} from '@ant-design/react-native';
-import {connect, Link} from 'umi';
+import React from 'react';
+import {StatusBar} from 'react-native';
+import {Icon} from '@ant-design/react-native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import HomeScreen from '../tabs/HomeScreen';
+import ProfileScreen from '../tabs/ProfileScreen';
+const {Navigator, Screen} = createBottomTabNavigator();
 
-const Item = List.Item;
-
-const ConnectedIndexPage = connect(({foo, loading: {effects}}) => ({
-  greeting: foo.greeting,
-  loading: effects['foo/fetch'],
-}))(({greeting, loading, navigation}) => {
-  // 导航条右侧按钮点击事件
-  function onHeaderRightPress() {
-    Modal.alert('Title', 'alert content', [
-      {
-        text: 'Cancel',
-        onPress: () => {
-          console.log('cancel');
-        },
-        style: 'cancel',
-      },
-      {
-        text: 'OK',
-        onPress: () => {
-          console.log('ok');
-        },
-      },
-    ]);
-  }
-
-  useLayoutEffect(() => {
-    // 添加导航条右侧按钮示例
-    navigation.setOptions({
-      headerRight: () => (
-        <Button type="primary" size="small" onPress={onHeaderRightPress}>
-          弹窗
-        </Button>
-      ),
-    });
-  }, [navigation]);
+function IndexPage() {
   return (
     <>
-      <StatusBar barStyle="light-content" />
-      <List
-        renderHeader={() => <Text>{loading ? 'Loading...' : greeting}</Text>}>
-        <Link to="/home?foo=bar" component={Item} arrow="horizontal">
-          主页
-        </Link>
-        <Link to="/login" component={Item} arrow="horizontal">
-          登录页
-        </Link>
-      </List>
+      <StatusBar barStyle="dark-content" />
+      <Navigator>
+        <Screen
+          name="主页"
+          options={({route}) => ({
+            tabBarIcon: ({focused, color, size}) => {
+              // You can return any component that you like here!
+              return <Icon size={size} name="home" color={color} />;
+            },
+          })}
+          component={HomeScreen}
+        />
+        <Screen
+          name="我的"
+          options={({route}) => ({
+            tabBarIcon: ({focused, color, size}) => {
+              // You can return any component that you like here!
+              return <Icon size={size} name="profile" color={color} />;
+            },
+          })}
+          component={ProfileScreen}
+        />
+      </Navigator>
     </>
   );
-});
+}
 
-ConnectedIndexPage.title = '菜单';
-ConnectedIndexPage.headerTintColor = '#ffffff';
-ConnectedIndexPage.headerTitleStyle = {
+IndexPage.title = '首页';
+IndexPage.headerTintColor = '#ffffff';
+IndexPage.headerTitleStyle = {
   fontWeight: 'bold',
 };
-ConnectedIndexPage.headerStyle = {
+IndexPage.headerStyle = {
   backgroundColor: '#000000',
 };
 
-export default ConnectedIndexPage;
+export default IndexPage;
