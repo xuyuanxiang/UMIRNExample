@@ -1517,9 +1517,9 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@react-native-community/async-storage@^1.11.0":
+"@react-native-community/async-storage@1.11.0":
   version "1.11.0"
-  resolved "https://registry.npmjs.org/@react-native-community/async-storage/-/async-storage-1.11.0.tgz#bf81b8813080846f150c67f531987c429b442166"
+  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.11.0.tgz#bf81b8813080846f150c67f531987c429b442166"
   integrity sha512-Pq9LlmvtCEKAGdkyrgTcRxNh2fnHFykEj2qnRYijOl1pDIl2MkD5IxaXu5eOL0wgOtAl4U//ff4z40Td6XR5rw==
   dependencies:
     deep-assign "^3.0.0"
@@ -1663,9 +1663,9 @@
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
 
-"@react-navigation/bottom-tabs@^5.5.2":
+"@react-navigation/bottom-tabs@5.5.2":
   version "5.5.2"
-  resolved "https://registry.npmjs.org/@react-navigation/bottom-tabs/-/bottom-tabs-5.5.2.tgz#b3d95e2a05eba47f7aa34fb9f2331ddede0ee4d5"
+  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-5.5.2.tgz#b3d95e2a05eba47f7aa34fb9f2331ddede0ee4d5"
   integrity sha512-unopBnv8i3hcjhp2qdhgSwF6GFnhkdtPwGbvJMOG8Na19oPscT8UQDUbHZKs9wiJMk2Q0usEz2PbFh8GQGAf7w==
   dependencies:
     color "^3.1.2"
@@ -6581,9 +6581,9 @@ htmlparser2@^3.9.1:
     readable-stream "^3.1.1"
 
 http-cache-semantics@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"
-  integrity sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.1.tgz#abe02fcb2985460bf0323be664436ec3476a6d5a"
+  integrity sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==
 
 http-deceiver@^1.2.7:
   version "1.2.7"
@@ -10976,9 +10976,9 @@ redeyed@~2.1.0:
   dependencies:
     esprima "~4.0.0"
 
-redux-persist@^6.0.0:
+redux-persist@6.0.0:
   version "6.0.0"
-  resolved "https://registry.npmjs.org/redux-persist/-/redux-persist-6.0.0.tgz#b4d2972f9859597c130d40d4b146fecdab51b3a8"
+  resolved "https://registry.yarnpkg.com/redux-persist/-/redux-persist-6.0.0.tgz#b4d2972f9859597c130d40d4b146fecdab51b3a8"
   integrity sha512-71LLMbUq2r02ng2We9S215LtPu3fY0KgaGE0k8WRgl6RkqxtGfl7HUozz1Dftwsb0D/5mZ8dwAaPbtnzfvbEwQ==
 
 redux-saga@^0.16.0:
